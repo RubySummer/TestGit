@@ -1,0 +1,53 @@
+body{
+    background-color: #ffffff;
+    width:100%;
+}
+#imglog1{
+    float:left;
+    font-family:微软雅黑;
+    font-size:20px;
+    /*margin:auto;
+    首行缩进*/
+    text-indent:2em;
+
+}
+ul{
+    /*list-style-type可修饰<li>标签前面的那个小黑点；*/
+    list-style-type:none;
+    overflow:hidden;
+    /*margin:0;
+    padding:0;*/
+}
+li{
+    float:right;
+}
+a:link,a:hover {
+    display: block;
+    width: 80px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 微软雅黑;
+}
+a:active,a:visited{
+    border-bottom:5px solid #ed4d4f;
+}
+::-webkit-input-placeholder {
+    color:#000;
+    text-indent:1em;
+}
+:-moz-placeholder{
+    color:#000;
+    text-indent:1em;
+}
+::-moz-placeholder{
+    color:#000;
+    text-indent:1em;
+}
+:-ms-input-placeholder{
+    color:#000;
+    text-indent:1em;
+}
